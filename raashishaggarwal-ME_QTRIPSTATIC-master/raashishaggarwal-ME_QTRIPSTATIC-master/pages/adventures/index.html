@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QTrip Adventures</title>
+  <link rel="stylesheet" href="../../css/styles.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">QTrip</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav d-flex justify-content-end w-100">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/pages/adventures/">Explore</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content">
+      <h1>Explore all adventures</h1>
+      <p>Here's a list of adventures that <span>you can explore in city<span></p>
+      <!-- TODO: MODULE_ADVENTURES_GRID -->
+      <!-- 1. Create the grid of adventures by adding child elements as required. -->
+      <div class="row">
+        <div class="col-6 col-lg-3 mb-4">
+          <div class="adventure-card">
+            <div class="card">
+              <a href="/pages/adventures/resort/"> <img src="/assets/adventures/resort.jpg" class="img-fluid card-img-top rounded" alt="resort"></a>
+              <div class="rate">
+                <p><strong>Resort</strong></p> 
+                <p><strong>$1200</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-4">
+          <div class="adventure-card">
+            <div class="card">
+              <img src="/assets/adventures/tower.jpg" class="img-fluid card-img-top rounded" alt="Tower">
+              <div class="rate">
+                <p><strong>Tower</strong></p> 
+                <p><strong>$1800</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-4">
+          <div class="adventure-card">
+            <div class="card">
+              <img src="/assets/adventures/mount.jpg" class="card-img-top" alt="Mount">
+              <div class="rate">
+                <p><strong>Mount</strong></p> 
+                <p><strong>$250</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-4">
+          <div class="adventure-card">
+            <div class="card">
+              <img src="/assets/adventures/beachside.jpg" class="card-img-top" alt="BeachSide">
+              <div class="rate">
+                <p><strong>BeachSide</strong></p> 
+                <p><strong>$1000</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-lg-3 mb-4">
+          <div class="adventure-card">
+            <div class="card">
+              <img src="/assets/adventures/canopy.jpg" class="card-img-top" alt="canopy">
+              <div class="rate">
+                <p><strong>Canopy</strong></p> 
+                <p><strong>$1600</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-4">
+          <div class="adventure-card">
+            <div class="card">
+              <img src="/assets/adventures/church.jpg" class="card-img-top" alt="church">
+              <div class="rate">
+                <p><strong>Church</strong></p> 
+                <p><strong>$1700</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-4">
+          <div class="adventure-card">
+            <div class="card">
+              <img src="/assets/adventures/elephant.jpg" class="card-img-top" alt="elephant">
+              <div class="rate">
+                <p><strong>Elephant</strong></p> 
+                <p><strong>$600</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-4">
+          <div class="adventure-card">
+            <div class="card">
+              <img src="/assets/adventures/huts.jpg" class="card-img-top" alt="huts">
+              <div class="rate">
+                <p><strong>Huts</strong></p> 
+                <p><strong>$60</strong></p>
+              </div>
+            </div>
+          </div>         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">© QTrip 2020</div>
+  </footer>
+  <!-- TODO: MODULE_ADVENTURES_GRID -->
+  <!-- 1. <script> elements need to be added. -->
+  <!-- These are scripts needed for bootstrap to work -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
